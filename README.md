@@ -15,10 +15,6 @@ The getHeuristic() returns the heuristic cost of the current state. For Task 2, 
 between the current point and the starting point. For task 3 it is the size of spanning tree which is constructed using all unvisited points and starting point.
 Implements methods to check the number of arguments, parsing them, prints error messages for bad arguments and invokes the dist() and getHeuristic().
 
-Analysis of the differences between task 2 and task 3 heuristics:
-MST(Task 3) dominates the straight-lines distance(task 2) means that it has always greater or equal values: either there is a direct(straight) connection,
-or it includes 2 or more lines where the triangle inequality leads to greater values.
-
 Execution of the program:
 
 For code compilation:
